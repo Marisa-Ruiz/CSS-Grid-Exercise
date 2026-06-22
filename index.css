@@ -1,0 +1,69 @@
+body{margin: 100px 125px;}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.title{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.horizontalposter{
+    grid-column: 4/7;
+    grid-row: 1/2;
+}
+
+.vocalist{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.guitaris{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.backstage{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+.verticalposter{
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.vocalist-bassist{
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+.guitarist-drummer{
+    grid-column: 6/7;
+    grid-row: 3/4;
+}
+
+.bassist{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.drummer{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.concert{
+    grid-column: 3/7;
+    grid-row: 4/5;
+}
